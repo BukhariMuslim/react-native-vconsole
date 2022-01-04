@@ -42,7 +42,7 @@ class LogStack {
     this.logs.push({
       method,
       data,
-      time: dayjs().format('YYYY年M月D日 HH:mm:ss SSS'),
+      time: dayjs().format('YYYY-M-D HH:mm:ss SSS'),
       id: unixId(),
     })
     this.notify()
